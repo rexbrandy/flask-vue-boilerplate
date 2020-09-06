@@ -2,6 +2,7 @@ from flask import Flask
 from flask_migrate import Migrate
 
 from api.config import Config
+from api.example import example_bp
 from api.models import db
 
 migrate = Migrate()
@@ -12,3 +13,7 @@ def create_app():
 
     db.init_app(app)
     migrate.init_app(app, db)
+
+    app.register_blueprint(example_bp)
+
+    return app
