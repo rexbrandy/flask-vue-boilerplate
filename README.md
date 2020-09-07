@@ -1,8 +1,10 @@
 # flask_vue_boilerplate
 
 This is an example layout for a web application using Flask and Vue.
-`api` Flask
-`src` Vue
+
+`api/` Flask
+
+`src/` Vue
 
 
 ## Prerequisites
@@ -30,5 +32,7 @@ flask db upgrade
 ```
 
 ### Run development mode
-`npm run serve` starts Vue server
-`flask run` starts Flask api
+```
+npm run serve # starts Vue server
+flask run # starts Flask api
+```
