@@ -9,16 +9,23 @@ This is an example layout for a web application using Flask and Vue.
 
 ## Prerequisites
 ```
-python3.7 
+git
 npm
+python3.7 
 pipenv
 sqllite3
 ```
 
 ## Project setup
 ```
+git clone https://github.com/rexbrandy/flask-vue-boilerplate.git
+
+cd flask-vue-boilerplate/
+
 pipenv install
 npm install
+
+export FLASK_APP='app.py'
 ```
 
 ## Database setup
